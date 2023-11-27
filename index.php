@@ -6,6 +6,8 @@
     <title>Document</title>
 </head>
 <body>
+    <p></p>
+    <span></span>
     <?php 
         error_reporting(0);
         $zmienna1 = 1;
@@ -14,6 +16,7 @@
         if($zmienna1 > $zmienna2){
             echo("Zmienna 1 jest wieksza");
         };
+        
     ?>
 </body>
 </html>
